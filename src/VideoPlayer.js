@@ -17,7 +17,7 @@ const VideoPlayer = (props) => {
       sourceTypes: ["hls", "mp4"],
       muted: true,
       controls: true,
-      width: 800,
+      width: 500,
       sourceTransformation: {
         "hls": [{ streaming_profile: "hd" }],
         "mp4": [{ quality: "auto" }],
