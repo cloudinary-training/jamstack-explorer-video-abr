@@ -1,7 +1,8 @@
 import './App.css';
 import VideoPlayer from "./VideoPlayer";
 
-
+// cloudName and public id are both public data as they show up in the
+// Cloudinary URL.
 const params = { cloudName: "pictures77", publicId: "climbing" };
 
 function App() {
