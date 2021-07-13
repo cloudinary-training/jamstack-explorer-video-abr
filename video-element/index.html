@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>repl.it</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.11.4/cloudinary-core.min.js"></script>
+</head>
+
+<body>
+  <h1>Video Embed Element</h1>
+  <h2>Cloudinary JavaScript SDK</h2>
+  <div id="video-container"></div>
+
+  <script>
+    //wait for video tag to render
+    document.addEventListener("DOMContentLoaded", (e) => {
+      //set context
+      const cld = new cloudinary.Cloudinary({
+        cloud_name: "cloudinary-training",
+        secure: true,
+      });
+
+      //create video tag html with Cloudinary helper function
+      //add 
+      const videoHtml = cld
+        .videoTag("surfing", { controls: true })
+        .setFallbackContent("Your browser does not support HTML5 video tags.")
+        .transformation()
+        .height(300)
+        .width(500)
+        .quality("auto")
+        .fetchFormat("auto")
+        .crop("pad")
+        .toHtml();
+      //add html to DOM
+      document.querySelector("#video-container").innerHTML = videoHtml;
+    });
+  </script>
+</body>
+
+</html>
