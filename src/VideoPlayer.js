@@ -19,7 +19,7 @@ const VideoPlayer = (props) => {
       controls: true,
       width: 500,
       sourceTransformation: {
-        "hls": [{ streaming_profile: "hd" }],
+        "hls": [{ streaming_profile: "full_hd" }],
         "mp4": [{ quality: "auto" }],
       },
       // this is an options that will allow the user to select

@@ -14,7 +14,7 @@ To run the node script after setting up your .env file:
 
 ```bash
 # list all the transformations in the Cloudinary 'hd' profile
-node scripts/listHDProfileTransformations.js
+node scripts/listFullHDProfileTransformations.js
 # upload a video with eager transformations to create hls derivatives
 # you may want to replace the file uploaded
 node scripts/upload.js
@@ -23,7 +23,7 @@ node scripts/upload.js
 ## React app setup
 
 The app contains a `VideoPlayer` component.  This component accepts cloud name and public id
-to designate a specific video in a specific cloud that you want to access through the Video Player.  This Player is expecting that the video has been processed by a script like the `upload.js` so that hls derivatives have been created.
+to designate a specific video in a specific cloud that you want to access through the Video Player.  This Player is expecting that the video has been processed by a script like the `upload.js` so that HLS derivatives have been created.
 
 You can set your own param in the App.js file
 

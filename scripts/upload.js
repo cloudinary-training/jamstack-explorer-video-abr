@@ -17,7 +17,7 @@ const options = {
   resource_type: "video",
   type: "upload",
   eager: [
-    { streaming_profile: "hd", format: "m3u8" },
+    { streaming_profile: "full_hd", format: "m3u8" },
     {
       format: "mp4",
       transformation: [{ quality: "auto" }],
