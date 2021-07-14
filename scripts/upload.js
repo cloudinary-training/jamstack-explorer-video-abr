@@ -13,7 +13,7 @@ I include options to create the derived videos for hls as well as mp4.  Since th
 is mp4 this is not really necessary but included for completeness.
 */
 const options = {
-  public_id: "climbing",
+  public_id: "mountain",
   resource_type: "video",
   type: "upload",
   eager: [
@@ -32,7 +32,7 @@ const options = {
 // this can be a local or remote file
 cloudinary.uploader
   .upload(
-    "https://res.cloudinary.com/cloudinary-training/video/upload/v1625797745/climbing.mp4",
+    "https://res.cloudinary.com/cloudinary-training/video/upload/v1626130641/mountain.mov",
     options
   )
   .then((result) => console.log(JSON.stringify(result, null, 2)))

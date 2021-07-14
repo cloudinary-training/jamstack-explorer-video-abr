@@ -117,4 +117,13 @@ https://github.com/facebook/create-react-app/issues/8114
 Climbing video: Video by Grisha Grishkoff from Pexels
 https://www.pexels.com/video/low-angle-view-of-a-woman-rock-climbing-5963471/
 
+SwissHumanity from Pexels
+Drone Footage of Snow Capped Mountains
+https://www.pexels.com/video/drone-footage-of-snow-capped-mountains-7397652/
+
+Mountain Ranges With Snow Under A Blue Sky
+https://www.pexels.com/video/mountain-ranges-with-snow-under-a-blue-sky-3217373/
+
+
+
 
