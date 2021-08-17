@@ -113,6 +113,17 @@ Skip preflight check
 Skip the check to see whether multiple versions of a particular dependency are installed/accessible via node's resolve algorithm
 https://github.com/facebook/create-react-app/issues/8114
 
+## Cloudinary Blog Posts
+
+[Plug and Play Adaptive Bitrate Streaming with HLS and Mpeg Dash](https://cloudinary.com/blog/plug_and_play_adaptive_bitrate_streaming_with_hls_and_mpeg_dash)  
+
+[Video Optimization, Part 2: Multi-Codec Adaptive Bitrate Streaming](https://cloudinary.com/blog/video_optimization_part_ii_adaptive_bitrate_streaming_of_multiple_codecs)
+
+[How to Improve Live Streaming: Expert's Tips and Tricks](https://cloudinary.com/blog/video_at_large_scale_contributions_from_the_developer_community)
+
+[How to Implement Smooth Video Buffering for a Better Viewing Experience](https://cloudinary.com/blog/how_to_implement_smooth_video_buffering_for_a_better_viewing_experience)
+
+
 ## Credits
 Climbing video: Video by Grisha Grishkoff from Pexels
 https://www.pexels.com/video/low-angle-view-of-a-woman-rock-climbing-5963471/
