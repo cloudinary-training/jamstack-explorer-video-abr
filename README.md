@@ -1,6 +1,6 @@
 # Jamstack Explorer Streaming Video with Adaptive Bitrate Streaming (ABR)
 
-[GitHub Repo](https://streaming-video-with-abr.netlify.app/)
+[GitHub Repo](https://github.com/cloudinary-training/jamstack-explorer-video-abr)
 
 [Demo](https://streaming-video-with-abr.netlify.app/)
 
